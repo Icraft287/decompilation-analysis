@@ -1,0 +1,40 @@
+# MyST Project Configuration
+version: 1
+project:
+  title: Decompilation Analysis Report
+  description: Examining code recovery across compiler optimization levels using C and Ghidra
+  keywords:
+    - decompilation
+    - reverse engineering
+    - compiler optimization
+    - ghidra
+    - binary analysis
+  authors:
+    - name: Isaac Craft
+      email: isaac.craft@uri.edu
+      affiliations:
+        - CSC 311
+  date: 2024-12-12
+  license: CC-BY-4.0
+  github: https://github.com/yourusername/decompilation-experiment
+  
+site:
+  template: book-theme
+  title: Decompilation Experiment
+  options:
+    logo_text: Decompilation Analysis
+  nav:
+    - title: Overview
+      url: /index
+    - title: Experiment Guide
+      url: /guide
+    - title: Source Code Analysis
+      url: /source
+  actions:
+    - title: Download Report
+      url: /report.pdf
+    - title: View on GitHub
+      url: https://github.com/yourusername/decompilation-experiment
+    - title: Dogbolt Decompiler
+      url: https://dogbolt.org
+  domains: []
